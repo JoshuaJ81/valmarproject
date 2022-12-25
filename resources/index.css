@@ -638,6 +638,33 @@ font-size: 1.75rem;
 
 }
 
+#zoom {
+  transition: none;
+}
+
+#zoom:hover {
+  transform: none;
+}
+
+.about-preview {
+  background-image: url('../images/drinks.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
+  text-align: center;
+  background-color: rgba(240, 231, 231, 0.28);
+  background-blend-mode: color;
+  height: 60rem;
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  
+  }
+
 .social-media-div h1 {
 
   font-size: 2rem;
