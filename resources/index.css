@@ -125,7 +125,7 @@ p {
       text-align: center;
       
       background-blend-mode: color;
-      height: 60rem;
+      height: 47rem;
       background-color: rgba(240, 231, 231, 0.28);
       display: flex;
       flex-direction: column;
@@ -145,6 +145,7 @@ p {
         text-transform: uppercase;
         -webkit-text-stroke: 0.20px #fff;
         text-align: center;
+        vertical-align: middle;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -243,6 +244,8 @@ p {
   padding-bottom: 1rem;
   border-bottom: 1px solid black;
 }
+
+
 
 .bottles {
 
