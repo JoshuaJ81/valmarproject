@@ -1,10 +1,13 @@
 *{
-  padding: 0;
-  margin: 0;
   
+  margin: 0;
+  padding: 0;
   line-height: 1.9rem;
-  box-sizing: border-box;
+  
+  
 }
+
+
 
 h1,
 h2,
@@ -20,7 +23,7 @@ p {
   .nav-menu a, li {
     color: #fff;
     cursor: pointer;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 300;
     text-decoration: none;
     font-family: Anton;
@@ -35,7 +38,7 @@ p {
   
       position: fixed;
       display: flex;
-      justify-content:space-between;
+      justify-content:space-evenly;
       align-items: center;
       padding: 0.875rem 3%;
       
@@ -55,7 +58,7 @@ p {
       justify-content: center;
       align-items: center;
       gap: 2rem;
-      float: left;
+      
     }
 
     .nav-menu ul {
@@ -134,14 +137,14 @@ p {
       }
 
 
-      #hero h1 {
+      #hero h1, #about-hero h1, #contact-hero h1 {
 
         font-family: Anton;
-        font-size: 3.5rem;
+        font-size: 2.75rem;
         color:rgb(11, 11, 11);
         text-transform: uppercase;
         -webkit-text-stroke: 0.20px #fff;
-       
+        text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -229,7 +232,8 @@ p {
 /*=================================================================== BEST SECTION ===========================================================*/
 
 .best h1,
-.products-preview h1 {
+.products-preview h1,
+.contact h1 {
 
   text-align: center;
   font-family: Oswald;
@@ -268,9 +272,9 @@ p {
 
 
 
-/*================================================================== ABOUT PREVIEW ===========================================================*/
+/*================================================================== ABOUT PREVIEW AND STORE HOURS DIV ===========================================================*/
 
-.about-preview {
+.about-preview, .store-hours {
   background-image: url('../images/drinks.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -289,7 +293,7 @@ p {
   
   }
 
-  .about-box {
+  .about-box, .hours {
 
     padding: 0.75rem 0.4rem;
     border: solid 0.125rem rgba(10, 10, 10, 0.822);
@@ -297,7 +301,7 @@ p {
     background-color: rgba(240, 231, 231, 0.75);
   }
 
-  .about-preview h1 {
+  .about-preview h1, .store-hours h1 {
 
     color:rgb(11, 11, 11);
     font-family: Raleway;
@@ -318,6 +322,180 @@ p {
     margin-bottom: 1rem;
 
   }
+
+  .store-hours h2 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color:rgb(11, 11, 11);
+    font-family: Oswald;
+    text-align: center;
+  }
+
+
+  /*============================================================ ABOUT PAGE ===========================================================*/
+
+  #about-hero {
+    background-image: url('../images/abouthero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    text-align: center;
+    
+    background-blend-mode: color;
+    height: 60rem;
+    background-color: rgba(240, 231, 231, 0.28);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    
+    }
+
+    .valmarbio {
+      background-color: gold;
+    }
+
+    .valmarbio h2, .valmarbio1 h2 {
+      text-align: center;
+      font-family: Oswald;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+     
+    }
+
+    .valmarbio h3, .valmarbio1 h3 {
+      text-align: center;
+      font-family: Raleway;
+      font-size: 1rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+     
+    }
+
+
+
+    .valmarbio1 {
+      background-color: rgb(231, 235, 235);
+    }
+
+    .valmarbio img, .valmarbio1 img {
+
+      display: block;
+      max-width: 100%;
+
+    }
+
+  /*============================================================ CONTACT PAGE ===========================================================*/
+
+  #contact-hero {
+    background-image: url('../images/abouthero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    text-align: center;
+    
+    background-blend-mode: color;
+    height: 60rem;
+    background-color: rgba(240, 231, 231, 0.28);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    
+    }
+
+    /*== SUBSCRIBE SECTION ==*/
+
+.contact-box {
+  background-color: gold;
+  height: 460px;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.map-responsive{
+
+  overflow:hidden;
+  padding-bottom:40.75%;
+  position:relative;
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
+
+
+
+
+  .contact .btn:hover {
+    background-color: rgb(231, 235, 235);
+    color: #151515;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+label {
+  display: block;
+  line-height: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+  color: #151515;
+  font-family: Raleway;
+  
+  
+}
+
+input {
+  height: 2rem;
+  width: 25rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  
+}
+
+.contact h3 {
+  color:#151515;
+  font-family: Raleway;
+}
+  
+  #form {
+  
+  color: white;
+  display: table;
+  padding: 1rem;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+
+  }
+
+  
+
 
 
 /*================================================================== PRODUCTS PREVIEW ======================================================*/
@@ -385,12 +563,15 @@ p {
 
 /*================================================================= PRE FOOTER =============================================================*/
 
-.pre-footer {
+      .pre-footer {
 
-background-color: rgb(231, 235, 235);
-text-align: center;
+      background-color: rgb(231, 235, 235);
+      text-align: center;
+      
+      height: auto;
+      }
 
-}
+
 
     /*========================================================== FOOTER ===================================================================*/
 
@@ -398,8 +579,11 @@ text-align: center;
       background-color: black;
       clear: both;
       color: white;
-  
+     
+
       }
+
+  
       
       #footer p {
       text-align: center;
@@ -412,22 +596,17 @@ text-align: center;
   
       .footer-nav-menu li, 
       a {
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 1.75rem;
-    font-weight: 300;
-    text-decoration: none;
-      font-family: Anton;
-      list-style: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 1.75rem;
+        font-weight: 300;
+        text-decoration: none;
+        font-family: Anton;
+        list-style: none;
+        
       }
   
-      .footer-nav-menu {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 2rem;
-          
-        }
+  
       
        
       
@@ -438,7 +617,7 @@ text-align: center;
       }
       
         .footer-nav-link:hover{
-          color:rgb(32, 192, 67);
+          color:gold;
           transition: 0.5s;
         }
 
@@ -617,17 +796,61 @@ text-align: center;
 
 }
 
+/*===================================================== MEDIA QUERY FOR BOX SIZING BORDER MOBILE NAV MENU ==============================================================*/
+
+@media (max-width: 1040px) {
+
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.9rem;
+    
+    
+  }
+  
+    .navbar {
+    
+        position: fixed;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 0.875rem 3%;
+        
+        width: 100%;
+        height: auto;
+        transition: 300ms ease-in-out background-color;
+        z-index: 1;
+        
+      }
+
+}
 
 /*============================== MEDIA QUERIES FOR H1 AND H2 TAGS AT MOBILE VIEW ===================================================================*/
 
 @media (max-width: 495px) {
 
-#hero h1 {
+
+#hero h1, #about-hero h1, #contact-hero h1 {
 
   font-size: 2rem;
 }
 
-.about-preview h1 {
+.best h1,
+.products-preview h1, 
+.contact h1 {
+
+  font-size: 1.5rem;
+  
+}
+
+
+.valmarbio1 h2 {
+  margin-top: 2.5rem;
+}
+
+.about-preview h1, .contact h1, .store-hours h1 {
 
   font-size: 2rem;
 }
@@ -637,6 +860,13 @@ text-align: center;
 font-size: 1.75rem;
 
 }
+
+.store-hours h2 {
+
+  font-size: 1.25rem;
+
+}
+
 
 #zoom {
   transition: none;
@@ -676,3 +906,16 @@ font-size: 1.75rem;
 }
 
 }
+
+@media (max-width: 515px) {
+
+  input {
+      height: 2rem;
+      width: 19rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      
+  }
+
+}
+
