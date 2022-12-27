@@ -414,7 +414,7 @@ p {
     /*== SUBSCRIBE SECTION ==*/
 
 .contact-box {
-  background-color: gold;
+  background-color:#a21919;
   height: 460px;
   text-align: center;
   width: 100%;
@@ -441,6 +441,31 @@ p {
 }
 
 
+.contact .btn {
+        
+  font-family: Anton;	
+  color:#a21919;
+  background-color: gold;
+  opacity: 0.9;
+  transition: 0.3s;
+  border: solid 0.20rem rgba(240, 231, 231, .3);
+  border-radius: 0.75rem;
+  padding: 0.7rem 2rem;
+  text-decoration: none;
+  border-color: none;
+  border-style: hidden;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  cursor: pointer;
+  
+  
+  }
 
 
   .contact .btn:hover {
@@ -462,7 +487,7 @@ label {
   line-height: 1.5rem;
   font-weight: lighter;
   margin-bottom: 0.5rem;
-  color: #151515;
+  color: #fff;
   font-family: Raleway;
   
   
@@ -477,7 +502,7 @@ input {
 }
 
 .contact h3 {
-  color:#151515;
+  color:#fff;
   font-family: Raleway;
 }
   
@@ -845,6 +870,19 @@ input {
   
 }
 
+.best h2, .products-preview h2 {
+
+  margin-bottom: 1.5rem;
+
+}
+
+.bottles {
+
+  height: 375px;
+  width: 135px;
+  
+
+}
 
 .valmarbio1 h2 {
   margin-top: 2.5rem;
@@ -904,6 +942,13 @@ font-size: 1.75rem;
 
   font-size: 1.75rem;
 }
+
+}
+
+.logo-prefooter {
+
+height: 264px;
+width: 219px;
 
 }
 
