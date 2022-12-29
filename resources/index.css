@@ -685,7 +685,7 @@ input {
 
 }
 
-@media (min-width: 29.1875rem) and (max-width: 31.25rem) {
+@media (max-width: 500px) {
 
   #footer .nav-menu li, 
   a {
