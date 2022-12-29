@@ -137,7 +137,7 @@ p {
       }
 
 
-      #hero h1, #about-hero h1, #contact-hero h1 {
+      #hero h1, #page-hero h1 {
 
         font-family: Anton;
         font-size: 2.75rem;
@@ -196,17 +196,15 @@ p {
     
       .btn {
         
-        font-family: Anton;	
-        color: #fff;
-        background-color: #a21919;
+        font-family: Raleway;	
+        color: #a21919;
+        background-color: transparent;
         opacity: 0.9;
         transition: 0.3s;
-        border: solid 0.20rem rgba(240, 231, 231, .3);
-        border-radius: 0.75rem;
+        border: solid 0.20rem #a21919;
+        border-radius: 0px;
         padding: 0.7rem 2rem;
         text-decoration: none;
-        border-color: none;
-        border-style: hidden;
         font-size: 1.5rem;
         font-weight: 200;
         text-transform: uppercase;
@@ -218,11 +216,12 @@ p {
         cursor: pointer;
         
         
+        
         }
 
         .btn:hover {
-          background-color: gold;
-          color: #151515;
+          background-color: #a21919;
+          color: #fff;
           opacity: 1;
           transition: 0.5s;
       }
@@ -338,15 +337,15 @@ p {
 
   /*============================================================ ABOUT PAGE ===========================================================*/
 
-  #about-hero {
-    background-image: url('../images/abouthero.jpg');
+  #page-hero {
+    background-image: url('../images/otherhero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
     text-align: center;
     
     background-blend-mode: color;
-    height: 60rem;
+    height: 47rem;
     background-color: rgba(240, 231, 231, 0.28);
     display: flex;
     flex-direction: column;
@@ -395,26 +394,8 @@ p {
 
   /*============================================================ CONTACT PAGE ===========================================================*/
 
-  #contact-hero {
-    background-image: url('../images/abouthero.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:top;
-    text-align: center;
-    
-    background-blend-mode: color;
-    height: 60rem;
-    background-color: rgba(240, 231, 231, 0.28);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    
-    }
-
-    /*== SUBSCRIBE SECTION ==*/
+ 
+   
 
 .contact-box {
   background-color:#a21919;
@@ -446,17 +427,15 @@ p {
 
 .contact .btn {
         
-  font-family: Anton;	
-  color:#a21919;
-  background-color: gold;
+  font-family: Raleway;	
+  color: gold;
+  background-color: transparent;
   opacity: 0.9;
   transition: 0.3s;
-  border: solid 0.20rem rgba(240, 231, 231, .3);
-  border-radius: 0.75rem;
+  border: solid 0.20rem gold;
+  border-radius: 0px;
   padding: 0.7rem 2rem;
   text-decoration: none;
-  border-color: none;
-  border-style: hidden;
   font-size: 1.5rem;
   font-weight: 200;
   text-transform: uppercase;
@@ -472,6 +451,7 @@ p {
 
 
   .contact .btn:hover {
+    border: solid 0.20rem #a21919;
     background-color: rgb(231, 235, 235);
     color: #151515;
     opacity: 1;
@@ -538,7 +518,7 @@ input {
   font-family: Oswald;
   text-align: center;
   text-transform: uppercase;
-  color: #a21919
+  color: #a21919;
   
 
 }
@@ -860,7 +840,7 @@ input {
 @media (max-width: 495px) {
 
 
-#hero h1, #about-hero h1, #contact-hero h1 {
+#hero h1, #page-hero h1 {
 
   font-size: 2rem;
 }
@@ -967,3 +947,13 @@ width: 219px;
 
 }
 
+@media (min-width: 64rem) and (max-width: 100rem) {
+
+  #hero, #page-hero {
+
+    height: 33rem;
+   
+    
+    }
+
+}
