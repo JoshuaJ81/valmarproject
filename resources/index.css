@@ -596,20 +596,28 @@ input {
       #footer p {
       text-align: center;
       display: block;
-      justify-content: center;   
+      justify-content: center;  
       font-family: Raleway;  
+      }
+
+      .footer-nav-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
       }
   
   
   
-      .footer-nav-menu li, 
+      #footer .nav-menu li, 
       a {
         color: rgb(255, 255, 255);
         cursor: pointer;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-weight: 300;
         text-decoration: none;
-        font-family: Anton;
+        font-family: Raleway;
         list-style: none;
         
       }
@@ -620,12 +628,12 @@ input {
       
       
       
-      .footer-nav-link{
+      #footer .nav-link{
           transition: 0.7 ease;
       }
       
-        .footer-nav-link:hover{
-          color:gold;
+        #footer .nav-link:hover{
+          color:#a21919;
           transition: 0.5s;
         }
 
@@ -677,20 +685,19 @@ input {
 
 }
 
-@media (max-width: 29.1875rem) {
+@media (min-width: 29.1875rem) and (max-width: 31.25rem) {
 
-  .footer-nav-menu a, li
-   {
-      font-family: Anton;
-      text-decoration: none;
-      
-      font-size: 1.25rem;
-      
-      font-weight: 300;
-      color: rgb(255, 255, 255);
-      text-decoration: none;
-      cursor: pointer;
-      }
+  #footer .nav-menu li, 
+  a {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 0.80rem;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: Raleway;
+    list-style: none;
+    
+  }
 
       #footer p {
           font-size: 0.75rem;
