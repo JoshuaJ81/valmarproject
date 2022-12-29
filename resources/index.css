@@ -777,6 +777,11 @@ input {
      cursor: pointer;
      }
 
+     #footer .nav-link:hover{
+      color:#a21919;
+      transition: 0.5s;
+    }
+
 
   .nav-link:hover{
       color:#ffffff;
