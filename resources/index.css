@@ -65,9 +65,7 @@ p {
       padding: 0;
       margin: 0;
       list-style-type: none;
-      float: right;
-      margin-left: 0;
-      padding: 0;
+      text-align: center;
       display: flex;
     }
   
@@ -111,6 +109,9 @@ p {
 
       background-color: #a21919;
     }
+
+ 
+
 
     
 
@@ -227,6 +228,13 @@ p {
       }
 
 
+      .beverage {
+
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+       
+      }
+
+
 
 
 /*=================================================================== BEST SECTION ===========================================================*/
@@ -249,7 +257,7 @@ p {
 .bottles {
 
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-  
+  cursor: pointer;
 }
 
 #zoom {
@@ -263,6 +271,8 @@ p {
 .best .container {
   text-align: center;
 }
+
+
 
 .best h2 {
 
@@ -392,6 +402,36 @@ p {
 
     }
 
+
+
+
+/*============================================================= BEER WINE SPIRITS ===========================================================================*/
+
+.drinks {
+  height: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+ 
+  
+}
+
+.drinks .container {
+  text-align: center;
+  align-items: center;
+  
+}
+
+.drinks h2 {
+
+  margin-bottom: 1.5rem;
+  font-family: Oswald;
+  text-align: center;
+  color: #a21919
+  
+
+}
+
+
   /*============================================================ CONTACT PAGE ===========================================================*/
 
  
@@ -452,8 +492,8 @@ p {
 
   .contact .btn:hover {
     border: solid 0.20rem #a21919;
-    background-color: rgb(231, 235, 235);
-    color: #151515;
+    background-color: gold;
+    color: #a21919;
     opacity: 1;
     transition: 0.5s;
 }
@@ -520,6 +560,12 @@ input {
   text-transform: uppercase;
   color: #a21919;
   
+
+}
+
+.beer {
+
+  cursor: pointer;
 
 }
 
