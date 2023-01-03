@@ -1027,6 +1027,16 @@ width: 219px;
 
 }
 
+@media (min-width: 501px) and (max-width: 1630px) {
+
+#hero, #page-hero {
+
+  height: 45rem;
+
+}
+
+}
+
 @media (max-width: 500px) {
 
   #hero, #page-hero {
