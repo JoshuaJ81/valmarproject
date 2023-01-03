@@ -896,14 +896,7 @@ input {
 @media (max-width: 1040px) {
 
   
-  *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    line-height: 1.9rem;
-    
-    
-  }
+
   
     .navbar {
     
@@ -1038,7 +1031,7 @@ width: 219px;
 
   #hero, #page-hero {
 
-    height: 33rem;
+    height: 60rem;
    
     
     }
