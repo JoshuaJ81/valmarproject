@@ -1027,11 +1027,11 @@ width: 219px;
 
 }
 
-@media (min-width: 64rem) and (max-width: 100rem) {
+@media (max-width: 500px) {
 
   #hero, #page-hero {
 
-    height: 60rem;
+    height: 33rem;
    
     
     }
