@@ -1,12 +1,12 @@
 *{
   
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   line-height: 1.9rem;
   
   
 }
-
 
 
 h1,
@@ -58,6 +58,7 @@ p {
       justify-content: center;
       align-items: center;
       gap: 2rem;
+      
       
     }
 
@@ -126,7 +127,7 @@ p {
       text-align: center;
       
       background-blend-mode: color;
-      height: 47rem;
+      height: 60rem;
       background-color: rgba(240, 231, 231, 0.28);
       display: flex;
       flex-direction: column;
@@ -178,7 +179,7 @@ p {
     
     }
 
-    
+
     .split {
       display: flex;
       flex-direction: column;
@@ -194,7 +195,7 @@ p {
       
       }
 
-    
+
       .btn {
         
         font-family: Raleway;	
@@ -261,9 +262,7 @@ p {
         color:#a21919;
       }
 
-      .on {
-        background-color:aqua;
-      }
+    
 
 /*=================================================================== BEST SECTION ===========================================================*/
 
@@ -383,7 +382,7 @@ p {
     text-align: center;
     
     background-blend-mode: color;
-    height: 47rem;
+    height: 60rem;
     background-color: rgba(240, 231, 231, 0.28);
     display: flex;
     flex-direction: column;
@@ -732,7 +731,14 @@ input {
     }
     } 
 
-  
+@media (min-width: 640px) {
+  .drinks img {
+    display: block;
+    max-width: 100%;
+  }
+
+}
+
   /*media query to reduce size of li, a, and navbar search box*/
 
 @media (min-width: 30.9rem) and (max-width: 75.5rem) {
@@ -869,7 +875,7 @@ input {
 
 @media (max-width: 1024px) {
 
-  #hero h1 {
+  #hero h1, #page-hero h1 {
 
     font-size: 2.5rem;
   }
@@ -879,7 +885,7 @@ input {
 
 @media (max-width: 768px) {
 
-  #hero h1 {
+  #hero h1, #page-hero h1 {
     font-size: 2.25rem;
   }
 
