@@ -225,17 +225,45 @@ p {
           color: #fff;
           opacity: 1;
           transition: 0.5s;
-      }
+        }
 
 
       .beverage {
-
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-       
       }
 
+      .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: auto;
+      }
 
+      .page {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0.75rem 1rem;
+        border-radius: #a21919;
+        background-color: whitesmoke;
+        margin-bottom: 6rem;
+      }
 
+      .page li {
+        margin: 0.25rem;
+        padding: 0.75rem 1rem;
+        border-radius: 0.5rem;
+        color: #151515;
+      }
+
+      .page a:hover li {
+        color:#a21919;
+      }
+
+      .on {
+        background-color:aqua;
+      }
 
 /*=================================================================== BEST SECTION ===========================================================*/
 
@@ -668,11 +696,6 @@ input {
         
       }
   
-  
-      
-       
-      
-      
       
       #footer .nav-link{
           transition: 0.7 ease;
