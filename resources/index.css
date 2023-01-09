@@ -29,10 +29,14 @@ p {
     font-family: Anton;
     list-style: none;
     -webkit-text-stroke: 0.70px #a21919;
+    
   }
-
+ 
   
-
+.navbar-container {
+  display: flex;
+ 
+}
 
   .navbar {
   
@@ -52,14 +56,14 @@ p {
     .logo {
       cursor:pointer;
     }
+
   
     .nav-menu{
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 2rem;
-      
-      
+      margin-right: 0.80rem;
     }
 
     .nav-menu ul {
@@ -68,6 +72,7 @@ p {
       list-style-type: none;
       text-align: center;
       display: flex;
+      
     }
   
    
@@ -84,9 +89,9 @@ p {
     }
   
 
-    .navbar .social-media {
+    .navbar-container .social-media {
       display: inline;
-      margin: 1rem;
+      
       }
 
     .hamburger{
@@ -112,6 +117,7 @@ p {
     }
 
  
+    
 
 
     
@@ -142,7 +148,7 @@ p {
       #hero h1, #page-hero h1 {
 
         font-family: Anton;
-        font-size: 2.75rem;
+        font-size: 2.70rem;
         color:#a21919;
         text-transform: uppercase;
         -webkit-text-stroke: 0.20px #fff;
@@ -319,7 +325,7 @@ p {
   background-size: cover;
   background-position:top;
   text-align: center;
-  background-color: rgba(240, 231, 231, 0.28);
+  
   background-blend-mode: color;
   height: 80rem;
   background-attachment: fixed;
@@ -383,7 +389,7 @@ p {
     
     background-blend-mode: color;
     height: 60rem;
-    background-color: rgba(240, 231, 231, 0.28);
+    
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -657,6 +663,10 @@ input {
       height: auto;
       }
 
+      .logo-prefooter img {
+        max-width: 100%;
+      }
+
 
 
     /*========================================================== FOOTER ===================================================================*/
@@ -665,7 +675,7 @@ input {
       background-color: black;
       clear: both;
       color: white;
-     
+      
 
       }
 
@@ -674,7 +684,8 @@ input {
       #footer p {
       text-align: center;
       display: block;
-      justify-content: center;  
+      
+      
       font-family: Raleway;  
       }
 
@@ -682,13 +693,14 @@ input {
         display: flex;
         justify-content: center;
         align-items: center;
+       
         gap: 2rem;
         
       }
   
   
   
-      #footer .nav-menu li, 
+      .footer-nav-menu li, 
       a {
         color: rgb(255, 255, 255);
         cursor: pointer;
@@ -698,14 +710,15 @@ input {
         font-family: Raleway;
         list-style: none;
         
+        
       }
   
       
-      #footer .nav-link{
+      .nav-footer{
           transition: 0.7 ease;
       }
       
-        #footer .nav-link:hover{
+        .nav-footer:hover{
           color:#a21919;
           transition: 0.5s;
         }
@@ -744,7 +757,21 @@ input {
 
 }
 
-  /*media query to reduce size of li, a, and navbar search box*/
+/*media query for margin-right nav menu*/
+
+@media(max-width: 100rem) {
+
+  .nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2.45rem;
+  }
+
+}
+
+  /*media query to reduce size of li, a*/
 
 @media (min-width: 30.9rem) and (max-width: 75.5rem) {
 
