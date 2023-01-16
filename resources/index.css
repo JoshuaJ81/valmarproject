@@ -603,6 +603,15 @@ input {
 
 }
 
+.beverage h2 {
+
+  text-transform: uppercase;
+  font-family: Oswald;
+  text-align: center;
+  color: #a21919;
+  margin-bottom: 1rem;
+}
+
 .beer {
 
   cursor: pointer;
