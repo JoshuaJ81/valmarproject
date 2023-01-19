@@ -803,13 +803,18 @@ input {
 
 }
 
-@media (max-width: 500px) {
 
+@media (max-width: 768px) {
 
   .logo {
     height: 35px;
     width: 141px;
   }
+
+}
+
+
+@media (max-width: 500px) {
 
   #footer .nav-menu li, 
   a {
