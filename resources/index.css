@@ -201,6 +201,11 @@ p {
       
       }
 
+      footer {
+        padding: 2rem 0;
+        
+        }
+
 
       .btn {
         
@@ -366,6 +371,7 @@ p {
     font-family: Dancing Script;
     text-align: center;
     margin-bottom: 1rem;
+    text-transform: capitalize;
 
   }
 
@@ -599,7 +605,7 @@ input {
   text-align: center;
   text-transform: uppercase;
   color: #a21919;
-  
+  font-size: 1.5rem;
 
 }
 
@@ -610,6 +616,7 @@ input {
   text-align: center;
   color: #a21919;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .beer {
@@ -647,6 +654,7 @@ input {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  text-transform: capitalize;
 
 }
 
@@ -686,11 +694,29 @@ input {
       background-color: black;
       clear: both;
       color: white;
-      
+      height: auto;
 
       }
 
+      #footer .container {
+        text-align: center;
+        align-content: center;
+      }
+
   
+      .footer-logo img {
+     
+        max-width: 100%;
+      }
+
+      #footer h1, h2 {
+
+        font-family: raleway;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+
+    
       
       #footer p {
       text-align: center;
@@ -700,8 +726,17 @@ input {
       font-family: Raleway;  
       }
 
+      .copyright {
+        background-color: #a21919;
+        text-align: center;
+        display: block;
+        font-family: Raleway; 
+        color: #fff;
+        padding: 0.75rem 0;
+      }
+
       .footer-nav-menu {
-        display: flex;
+        display: inline;
         justify-content: center;
         align-items: center;
        
@@ -715,7 +750,7 @@ input {
       a {
         color: rgb(255, 255, 255);
         cursor: pointer;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 300;
         text-decoration: none;
         font-family: Raleway;
@@ -828,10 +863,23 @@ input {
     
   }
 
+  #footer h1, h2 {
+    font-size: 0.80rem;
+  }
+
       #footer p {
           font-size: 0.75rem;
           margin-left: 2px;
           margin-left: 2px;
+      }
+
+      .copyright p {
+        font-size: 0.80rem;
+      }
+
+      .footer-logo {
+        height:185px;
+        width: 150px;
       }
 }
 
