@@ -9,7 +9,7 @@ $mailheader = "From:" .$name."<".$email.">\r\n";
 
 $recipient = "joshua.lavallais@yahoo.com";
 
-mail($recipient, $message, $mailheader);
+mail($recipient, $message, $mailheader)
 
 or die("Error!");
 
