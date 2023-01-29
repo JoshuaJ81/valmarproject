@@ -484,32 +484,37 @@ p {
  
    
 
-.contact-box {
-  background-color:#a21919;
-  height: 460px;
-  text-align: center;
-  width: 100%;
+  .contact {
+    height: auto;
+   }
+     
   
-}
-
-.map-responsive{
-
-  overflow:hidden;
-  padding-bottom:40.75%;
-  position:relative;
-  height:0;
-
-}
-
-.map-responsive iframe{
-
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-
-}
+  .contact-box {
+    background-color:#a21919;
+    height: 680px;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .map-responsive{
+  
+    overflow:hidden;
+    padding-bottom:40.75%;
+    position:relative;
+    
+  
+  }
+  
+  .map-responsive iframe{
+  
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  
+  }
 
 
 .contact .btn {
@@ -570,6 +575,10 @@ input {
   font-size: 1rem;
   
 }
+
+#message {
+  width: 25rem;
+  }
 
 .contact h3 {
   color:#fff;

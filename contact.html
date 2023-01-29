@@ -91,26 +91,29 @@
                     <div class="contact-box">
                       
                
-                        <form id="form" class="clearfix">
+                        <form action="contact-form.php" method="POST">
                
-                            
+                          <div id="form" class="clearfix">  
                             <h3>Feel free to reach us by phone at: 713-808-9387</h3>
                             <h3>Or, send a message using the contact form below.</h3>
                             <br>
-                            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form.php"></form>
-                            <label>Your Name</label>	
-                            <input type="text" placeholder="Full Name"/>
+                            
+                            <label for="name">Your Name</label>	
+                            <input type="text" name="name" id="name">
                         
                             <label>Your Email</label>	
-                            <input type="email" placeholder="Email Address"/>
+                            <input type="email" name="email" id="email">
+
+                            <label>Message</label>
+                            <textarea id="message" name="message" class="message-form" rows="6" maxlength="2000" required></textarea>
                             
                             <div>
                                 <br>
                                 <button class="btn" href = '#';>CONTACT US</button> 
                             </div>
                             
-                            </form>
-
+                        </form>
+                          </div>
                     </div>
     
                     <div class="map-responsive">
