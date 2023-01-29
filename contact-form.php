@@ -2,10 +2,10 @@
 <?php
 
 $name = $_POST['name'];
-$email = $_POST['name'];
+$email = $_POST['email'];
 $message = $_POST['message'];
 
-$$mailheader = "From:" .$name."<".$email.">\r\n";
+$mailheader = "From:" .$name."<".$email.">\r\n";
 
 $recipient = "joshua.lavallais@yahoo.com";
 
