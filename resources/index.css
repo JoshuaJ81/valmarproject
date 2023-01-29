@@ -578,14 +578,15 @@ input {
 
 input[type=submit] {
 
+  background-color: transparent;
   font-family: Raleway;	
   color: #d4af37;
-  background-color: transparent;
   opacity: 0.9;
   transition: 0.3s;
   border: solid 0.20rem #d4af37;
   border-radius: 0px;
-  padding: 0.7rem 2rem;
+ 
+  padding: 2rem 2rem;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 200;
@@ -595,7 +596,6 @@ input[type=submit] {
   margin-left: auto;
   margin-right: auto;
   display:block;
-  cursor: pointer;
 
 }
 
@@ -606,7 +606,7 @@ input[type=submit]:hover {
   color: #a21919;
   opacity: 1;
   transition: 0.5s;
-  
+
 }
 
 #message {
@@ -628,6 +628,20 @@ input[type=submit]:hover {
   margin-right: auto;
   text-align: center;
   
+
+  }
+
+  .thanks h1{
+
+    color:rgb(11, 11, 11);
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
 
   }
 
