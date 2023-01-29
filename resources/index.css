@@ -1174,6 +1174,8 @@ width: 219px;
 
 }
 
+
+
 @media (max-width: 515px) {
 
   input {
@@ -1183,6 +1185,10 @@ width: 219px;
       font-size: 1rem;
       
   }
+
+  #message {
+    width: 19rem;
+    }
 
 }
 
