@@ -526,7 +526,8 @@ p {
   transition: 0.3s;
   border: solid 0.20rem #d4af37;
   border-radius: 0px;
-  padding: 0.7rem 2rem;
+  
+  width: 25rem;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 200;
@@ -576,38 +577,7 @@ input {
   
 }
 
-input[type=submit] {
 
-  background-color: transparent;
-  font-family: Raleway;	
-  color: #d4af37;
-  opacity: 0.9;
-  transition: 0.3s;
-  border: solid 0.20rem #d4af37;
-  border-radius: 0px;
- 
-  padding: 2rem 2rem;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 0.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  display:block;
-
-}
-
-input[type=submit]:hover {
-
-  border: solid 0.20rem #a21919;
-  background-color: #d4af37;
-  color: #a21919;
-  opacity: 1;
-  transition: 0.5s;
-
-}
 
 #message {
   width: 25rem;
