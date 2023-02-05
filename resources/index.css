@@ -962,6 +962,27 @@ input {
         height:185px;
         width: 150px;
       }
+
+      .drinks .beverage img {
+        height: 213px;
+        width: 174px;
+      }
+
+      .beverage img {
+        height: 300px;
+        width: 108px;
+      }
+
+      .drinks .beverage h2 {
+
+        text-transform: uppercase;
+        font-family: Oswald;
+        text-align: center;
+        color: #a21919;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+      
 }
 
 
@@ -1098,7 +1119,7 @@ input {
 
 }
 
-/*============================== MEDIA QUERIES FOR H1 AND H2 TAGS AT MOBILE VIEW ===================================================================*/
+/*============================== MEDIA QUERIES FOR H1, H2 AND H3 TAGS AT MOBILE VIEW ===================================================================*/
 
 @media (max-width: 495px) {
 
@@ -1109,11 +1130,16 @@ input {
 }
 
 .best h1,
-.products-preview h1, 
-.contact h1 {
+.products-preview h1 {
 
   font-size: 1.5rem;
   
+}
+
+.products-preview h2 {
+  font-size: 1.2rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .best h2, .products-preview h2 {
@@ -1130,18 +1156,34 @@ input {
 
 }
 
+.valmarbio h3, .valmarbio1 h3 {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+ 
+}
+
 .valmarbio1 h2 {
   margin-top: 2.5rem;
 }
 
-.about-preview h1, .contact h1, .store-hours h1, .thanks h1 {
+.about-preview h1, .store-hours h1, .thanks h1 {
 
   font-size: 2rem;
 }
 
+.contact h1 {
+  font-size: 1.5rem;
+}
+
 .about-preview h2, .thanks h2 {
 
-font-size: 1.75rem;
+font-size: 1.55rem;
 
 }
 
@@ -1149,6 +1191,10 @@ font-size: 1.75rem;
 
   font-size: 1.25rem;
 
+}
+
+.beverage h2 {
+  font-size: 1.2rem;
 }
 
 
