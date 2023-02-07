@@ -1215,7 +1215,7 @@ font-size: 1.55rem;
   background-color: rgba(240, 231, 231, 0.28);
   background-blend-mode: color;
   height: 60rem;
-  
+  position:fixed;
   display: flex;
   flex-direction: column;
   width: 100%;
