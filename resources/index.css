@@ -126,7 +126,7 @@ p {
   /*============================================================ HERO SECTION ===========================================================*/
 
   #hero {
-      background-image: url('../images/iStock-627888650.jpg');
+      background-image: url('../images/valmaromepageheropic.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position:top;
@@ -134,7 +134,7 @@ p {
       
       background-blend-mode: color;
       height: 60rem;
-      background-color: rgba(240, 231, 231, 0.28);
+      
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -271,6 +271,13 @@ p {
 
       .page a:hover li {
         color:#a21919;
+      }
+
+      .page a.active li {
+
+        background-color:#a21919;
+        color:#fff;
+
       }
 
       .pagination .btn {
