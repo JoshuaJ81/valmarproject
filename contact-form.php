@@ -21,7 +21,7 @@ echo'
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Val Mar's Wine And Spirits | Spirits</title>
+    <title>Val Mar&rsquo;s Wine And Spirits | Spirits</title>
 
     <link rel="icon" type="image/x-icon" href="./images/vmfavicon.png">
 
@@ -102,7 +102,8 @@ echo'
     <section class="thanks">
 
 
-        <h1>to return to val mars spirits & fine wines, please click the button below.</h1>
+    <h1>to return to val mars spirits & fine wines,</h1>
+    <h1>please click the button below.</h1>
 
         <a href="index.html"><button class="btn" >CLICK HERE</button></a>
 
@@ -115,7 +116,7 @@ echo'
       <section class="social-media-div">
         <div class="container">
           <div>
-            <h1>&#8212 Don't be a stranger &#8212</h1>
+            <h1>&#8212 Don&rsquo;t be a stranger &#8212</h1>
             <h2>Keep in touch, and follow us via our social media channels below.</h2>
           </div>
 
@@ -141,7 +142,7 @@ echo'
 
             <div>
               <h1>close to downtown</h1>
-              <h1>WE'RE NEAR:</h1>
+              <h1>WE&rsquo;RE NEAR:</h1>
               <h2>minute maid park,</h2>
               <h2>and second ward,</h2>
               <h2>off of highway 69 N.</h2>
@@ -161,7 +162,7 @@ echo'
             </div>
             <br>
                     <div>
-                      <h1>We'd love to see you.</h1>
+                      <h1>We&rsquo;d love to see you.</h1>
                       <h1>Stop by and visit us!</h1>
                       <h2>2002 Runnels St, Suite C</h2>
                       <h2>Houston, Texas</h2>
