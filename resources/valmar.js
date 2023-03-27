@@ -110,6 +110,14 @@ let searchable = [
 '<a href="casamigos.html">casamigos tequila</a>',
 '<a href="cavitwine.html">cavit wine</a>',
 '<a href="chandonwine.html">chandon wine</a>',
+'<a href="chivasregale.html">chivas regale</a>',
+'<a href="chopshopcab.html">chop shop cab</a>',
+'<a href="chopinvodka.html">chopin vodka</a>',
+'<a href="cincorotequila.html">cincoro tequila</a>',
+'<a href="ciroc.html">ciroc vodka</a>',
+'<a href="clanmacgregor.html">clan macgregor</a>',
+'<a href="coraminoanejo.html">coramino anejo</a>',
+'<a href="coronaextra.html">corona extra 6 pack</a>',
 
 ];
 
